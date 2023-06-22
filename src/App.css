@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+  .responsive-table {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .responsive-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .responsive-table tbody tr td {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem;
+  }
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 325px; 
+}
+
+
